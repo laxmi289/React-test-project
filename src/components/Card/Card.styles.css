@@ -1,0 +1,21 @@
+#card-div {
+    box-shadow: 3px 2px 5px white;
+    width: 23%;
+    min-height: 25vh;
+    margin: 10px 13px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #f2f2f2;
+    border-radius: 4px;
+}
+
+#card-content {
+    display: flex;
+    flex-direction: column;
+    padding-right: 17px;
+}
+
+img {
+    width: 87px;
+    height: 187px;
+}

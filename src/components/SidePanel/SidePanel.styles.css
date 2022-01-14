@@ -1,0 +1,24 @@
+#side-panel {
+    width: 15%;
+    border: 2px solid black;
+    background-color: #ffffcc;
+}
+
+#items-div {
+    margin: 12px;
+}
+
+#ul-items {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 5px 0 0 5px;
+}
+
+.a-item {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}

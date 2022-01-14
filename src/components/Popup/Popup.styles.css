@@ -1,0 +1,30 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+  }
+  .popup_inner {
+    position: absolute;
+    left: 38%;
+    right: 38%;
+    top: 22%;
+    bottom: 25%;
+    margin: auto;
+    background: white;
+    border-radius: 4px;
+  }
+
+  #form {
+    margin: 0 57px
+  }
+
+  label {
+    color: black;
+  }
+  input {
+    border-bottom: 2px solid grey;
+  }
