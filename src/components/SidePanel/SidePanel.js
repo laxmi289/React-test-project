@@ -12,10 +12,15 @@ class SidePanel extends React.Component {
             <div id='side-panel'>
                 <div id='items-div'>
                     <ul id="ul-items">
-                        <li><a href ="/" className="a-item">Add new User</a></li>
+                        <li><a href ="/add" className="a-item">Add new User</a></li>
+                        
+                        
                         <li><a href="/" className="a-item">View Added Users</a></li>
                     </ul>
                 </div>
+                <Routes>
+                    <Route path="/add" element={<AddNewUser />} />
+                </Routes>
             </div>
             
         );
